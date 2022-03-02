@@ -4,7 +4,16 @@ Assumptions -
 2. The API takes input as arrays. The RequestParameter name is "value" 
 3. Incase of invalid query parameter(like "valuex"),the api ignores the invallid parameters and responds for only inputs with the parametr name as "value" 
 4. For any input other than integers ,the api responds back with output as "Invaid item"
-5. The response schema is in the format of a array   
+5. The response schema is in the format of a array inside JSON body.Incase of multiple response for a input, its handled as array.
+
+
+Auomation Tools
+
+1. Java 1.8
+2. Rest Library - RestAssured
+3. Build Tool - Maven
+4. Test Runner- JUnit
+   
 
 
 Case#1
