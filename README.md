@@ -1,4 +1,6 @@
-Assumptions - 
+**FizzBuzz**
+
+**Assumptions**
 
 1. The API has an endpoint - "/compute"
 2. The API takes input as arrays. The RequestParameter name is "value" 
@@ -7,7 +9,7 @@ Assumptions -
 5. The response schema is in the format of a array inside JSON body.Incase of multiple response for a input, its handled as array.
 
 
-Auomation Tools
+**Automation Tools**
 
 1. Java 1.8
 2. Rest Library - RestAssured
@@ -16,7 +18,7 @@ Auomation Tools
    
 
 
-Case#1
+**Case#1**
 
 Request - 
 	localhost:8080/compute?value=1&value=3&value=5&value=&value=15&value=A&value=23
@@ -50,7 +52,7 @@ Response -
 	}
 	
 	
-Case#2
+**Case#2**
 
 Request - 
 	localhost:8080/compute?value=1
@@ -64,7 +66,7 @@ Response -
 		]
 	}
 	
-Case#3
+**Case#3**
 
 Request - 
 	localhost:8080/compute?value=1&value=1
@@ -82,7 +84,7 @@ Response -
 		]
 	}
 	
-Case#4
+**Case#4**
 Request - 
 	localhost:8080/compute?valuex=1&value=3
 
@@ -98,7 +100,7 @@ Response -
 		]
 	}
 	
-Case#5
+**Case#5**
 Request - 
 	localhost:8080/compute?valuex=1&valuex=3
 
