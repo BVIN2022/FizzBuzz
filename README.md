@@ -2,6 +2,7 @@
 
 **Assumptions**
 
+0. The Application has API hosted at - localhost:8080
 1. The API has an endpoint - "/compute"
 2. The API takes input as arrays. The RequestParameter name is "value" 
 3. Incase of invalid query parameter(like "valuex"),the api ignores the invallid parameters and responds for only inputs with the parametr name as "value" 
